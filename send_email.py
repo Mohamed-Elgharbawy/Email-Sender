@@ -19,7 +19,7 @@ def send_email(subject, msg):
     except:
         print("Email failed to send.")
 
-subject = "Email from Python"
-msg = "Hello from Python!"
+subject = raw_input("Subject: ")
+msg = raw_input("Message:\n")
 
 send_email(subject, msg)
