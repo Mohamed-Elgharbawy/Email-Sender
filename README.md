@@ -8,3 +8,5 @@ If you would not like to enter your email and password in every time, simply add
 >EMAIL_ADDRESS = "example@example.com"
 
 >PASSWORD = "password1234"
+
+There is no need to install any additional packages, as `smptlib` and `getpass` are built into Python 3
